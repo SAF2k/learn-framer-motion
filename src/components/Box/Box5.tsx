@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button = ({ children, onClick }: ButtonProps) => {
   return (
     <button
-      className="text-white p-3 rounded-lg mr-3 my-5 hover:opacity-50 bg-black"
+      className="text-black font-semibold py-2 px-4 rounded-lg mr-3 my-5 hover:opacity-50 bg-white"
       onClick={onClick}
     >
       {children}

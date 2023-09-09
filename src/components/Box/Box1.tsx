@@ -7,6 +7,7 @@ const Box1 = () => {
 
   return (
     <div className="pb-[20rem] p-[5rem] h-[25rem] overflow-clip">
+      <div className="text-xl absolute top-[25%] right-[50%] -z-10 text-center">Click </div>
       <motion.div
         className="w-[15rem] h-[15rem] bg-blue-600 flex flex-col items-center justify-center"
         animate={{
